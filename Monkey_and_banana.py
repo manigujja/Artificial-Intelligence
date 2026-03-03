@@ -53,6 +53,8 @@ def bfs():
 solution = bfs()
 
 if solution:
+    print(('Monkey Position', 'Box Position', 'On Box', 'Has Banana'))
+    
     for step in solution:
         print(step)
 else:
